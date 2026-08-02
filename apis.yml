@@ -1,8 +1,28 @@
 aid: valar-atomics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/valar-atomics.png
 name: Valar Atomics
-description: 'Valar Atomics is a company surfaced as a portfolio company of initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: climate. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Valar Atomics is a nuclear energy company developing high-temperature gas
+  reactors (HTGR) with TRISO fuel, graphite moderators, and helium coolant,
+  deployed as grid-independent gigasites of many small reactors that power
+  heavy industry - hydrogen production via the sulfur-iodine cycle, AI data
+  center power, industrial process heat, and clean synthetic hydrocarbon fuels
+  via Fischer-Tropsch synthesis with captured CO2. Its Ward 250 test reactor
+  is a partnership with the U.S. Department of Energy, the San Rafael Energy
+  Research Center, and the State of Utah. Founded by Isaiah Taylor and backed
+  by Initialized Capital, the company publishes no public API or developer
+  surface as of July 2026.
 url: https://raw.githubusercontent.com/api-evangelist/valar-atomics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +30,22 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Climate
+- Nuclear Energy
+- Energy
+- Hydrogen
+- Synthetic Fuels
+- Small Modular Reactors
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +53,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/valar-atomics-domain-security.yml
+- type: WellKnown
+  url: well-known/valar-atomics-well-known.yml
+- type: LLMsTxt
+  url: llms/valar-atomics-llms.txt
 - type: Website
   url: https://www.valaratomics.com/
+- type: GitHubOrganization
+  url: https://github.com/Valar-Atomics
+- type: Careers
+  url: https://www.valaratomics.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/valar-atomics/
+- type: Twitter
+  url: https://x.com/valaratomics

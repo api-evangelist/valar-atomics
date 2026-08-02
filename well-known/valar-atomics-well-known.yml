@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.valaratomics.com/
+host: https://www.valaratomics.com
+notes: >-
+  Valar Atomics is a nuclear energy company (high-temperature gas reactors,
+  TRISO fuel) with no public API surface. All discovery documents probed
+  returned 404; only robots.txt is published. Absence recorded as valid data.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 200

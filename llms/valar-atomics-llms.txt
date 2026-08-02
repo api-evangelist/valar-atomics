@@ -1,0 +1,16 @@
+# Valar Atomics
+
+> Valar Atomics is a nuclear energy company developing high-temperature gas reactors (HTGR) with TRISO fuel, graphite moderators, and helium coolant. It builds grid-independent "gigasites" of many small reactors to power heavy industry — hydrogen production via the sulfur-iodine cycle, AI data-center power, industrial process heat (steel, bauxite electrolysis), and clean synthetic hydrocarbon fuels via Fischer-Tropsch with captured CO2. Its Ward 250 test reactor is a partnership with the U.S. Department of Energy, the San Rafael Energy Research Center, and the State of Utah. Valar Atomics publishes no public API, developer portal, or SDKs.
+
+## Company
+
+- [Website](https://www.valaratomics.com/): Company homepage — technology, mission, Ward 250
+- [Docs / Knowledge Base](https://www.valaratomics.com/docs): Corporate knowledge base and press/media library (not developer documentation)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/valar-atomics/refs/heads/main/apis.yml): APIs.json profile for Valar Atomics in the API Evangelist network
+
+## Notes
+
+- No public API surface was found as of 2026-07-21: no developer portal, no OpenAPI/AsyncAPI, no SDK packages, no /.well-known/ discovery documents (all probed paths returned 404).
