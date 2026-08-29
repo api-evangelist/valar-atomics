@@ -35,6 +35,9 @@ description: >-
   by Initialized Capital, the company publishes no public API or developer
   surface as of July 2026.
 url: https://raw.githubusercontent.com/api-evangelist/valar-atomics/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Founded by Isaiah Taylor and backed by Initialized Capital, the company publishes no public API or developer surface as of July 2026."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
