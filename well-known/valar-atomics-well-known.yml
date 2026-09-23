@@ -2,14 +2,13 @@ generated: '2026-07-21'
 method: searched
 source: https://www.valaratomics.com/
 host: https://www.valaratomics.com
-notes: >-
-  Valar Atomics is a nuclear energy company (high-temperature gas reactors,
-  TRISO fuel) with no public API surface. All discovery documents probed
-  returned 404; only robots.txt is published. Absence recorded as valid data.
-documents:
+notes: Valar Atomics is a nuclear energy company (high-temperature gas reactors, TRISO fuel) with no public
+  API surface. All discovery documents probed returned 404; only robots.txt is published. Absence recorded
+  as valid data.
+hosts:
+- host: https://www.valaratomics.com
+  documents:
   - path: /.well-known/security.txt
-    status: 404
-  - path: /security.txt
     status: 404
   - path: /.well-known/openid-configuration
     status: 404
@@ -19,7 +18,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
-  - path: /llms.txt
-    status: 404
-  - path: /robots.txt
-    status: 200
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
